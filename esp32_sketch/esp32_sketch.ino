@@ -2,6 +2,10 @@
    Main code for frequency detection of TSL237 sensor
    was heavily based on a pre-written code made by Rob Tillaart
    Made: 2011 - 05 - 16
+   Source: https://playground.arduino.cc/Main/TSL235R/
+
+   BLE functionalities were based on code written by Neil Kolban
+   https://github.com/nkolban/ESP32_BLE_Arduino
 
 */
 
@@ -33,7 +37,7 @@ bool deviceConnected = false;
 bool oldDeviceConnected = false;
 uint32_t value = 0;
 
-//CHOOSE MODE HERE:
+//Operation mode: 0 for LCD display, 1 for BLE
 int operateMode = 0;
 
 //MACROS SECTION:
@@ -42,7 +46,7 @@ int operateMode = 0;
 
 
 
-//##-------------------- REMEMBER TO WRITE A FUNCTION TO CALIBRATE THE SENSOR!!!!!!!!!!------------------------
+//##-----------------------------------------------------------------
 //values for calibration curve:
 /**
    Notes:
@@ -54,7 +58,7 @@ float sensorB;
 
 float expM;
 float expB;
-//-------------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------
 
 
 //START OF CODE:
