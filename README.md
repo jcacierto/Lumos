@@ -14,7 +14,7 @@ on Android). The mobile application was made on Thunkable to facilitate BLE conn
 **Materials**\
 //include materials here later!
 
-**How to Build**\
+**How to Build**
 1. Follow the schematic diagram for the correct wiring on the ESP32 microcontroller. 
 2. Upload the .ino sketch to the microcontroller. 
 3. 
