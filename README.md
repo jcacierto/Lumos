@@ -14,7 +14,7 @@ on Android). The mobile application was made on Thunkable to facilitate BLE conn
 **Materials** 
 * ESP32 microcontroller
 * TSL237 light-to-frequency photodiode
-* LCD1602 screen 
+* LCD1602 screen (with I2C module built-in)
 * 0.1uF capacitor
 * PLA (for 3D printing)
 * Wires
