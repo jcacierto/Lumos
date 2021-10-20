@@ -11,7 +11,7 @@ frequency in Hz. The frequency detected is directly proportional to the light in
 is then displayed through either the LCD screen built in with the sensor, or on a mobile phone application (currently only available
 on Android). The mobile application was made on Thunkable to facilitate BLE connection between the client (phone) and the server (ESP32).
 
-**Materials** \
+**Materials** 
 * ESP32 microcontroller
 * TSL237 light-to-frequency photodiode
 * LCD1602 screen 
