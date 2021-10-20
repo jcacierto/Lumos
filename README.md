@@ -1,7 +1,7 @@
 # Lumos
 Low-cost, modular luminometer 
 
-**How it works**\
+**How it works**
 Lumos is a low cost, modular luminometer which can measure the light intensity of luminescent enzymes. The device works by 
 measuring the light intensity of the analyte through a TSL237 Light-to-Frequency photodiode. The sensor then converts the
 incident light into a 50% duty cycle square wave voltage, which is then picked up by the ESP32 microcontroller's interrupt pins. 
