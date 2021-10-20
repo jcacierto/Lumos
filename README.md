@@ -12,9 +12,15 @@ is then displayed through either the LCD screen built in with the sensor, or on 
 on Android). The mobile application was made on Thunkable to facilitate BLE connection between the client (phone) and the server (ESP32).
 
 **Materials**\
-//include materials here later!
+* ESP32 microcontroller
+* TSL237 light-to-frequency photodiode
+* LCD1602 screen 
+* 0.1uF capacitor
+* PLA (for 3D printing)
+* Wires
 
 **How to Build**
 1. Follow the schematic diagram for the correct wiring on the ESP32 microcontroller. 
 2. Upload the .ino sketch to the microcontroller. 
-3. 
+3. On the Thunkable app, search up 'Lumos' by *johncedricaciertot*.
+4. Print the CAD models.
